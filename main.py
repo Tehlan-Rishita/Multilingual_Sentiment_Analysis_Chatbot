@@ -1,10 +1,10 @@
-# main.py
+# main.py #OFFICIAL STREAMLIT INTERFACE RUN COMMAND : streamlit run main.py IN CMD 
 
 import streamlit as st
 import requests
 import config
 
-API_URL = "http://127.0.0.1:8000/process"  # FastAPI backend URL
+API_URL = "http://127.0.0.1:8000/detect-language/"  # FastAPI backend URL
 
 st.title("Multilingual Sentiment Chatbot")
 
